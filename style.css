@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Sono:200,300,regular,500,600,700,800);
+
+.container {
+  margin: 20px auto;
+  max-width: 1000px;
+  border: 2px #000000 solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.foto {
+  width: 20%;
+  border-radius: 10%;
+}
+.name {
+  font-family: "Sono";
+  font-weight: 600;
+}
+address {
+  display: flex;
+  flex-direction: column;
+}
+.education span {
+  font-weight: 700;
+  font-size: 20px;
+}
+li {
+  list-style: none;
+}
+.item-work {
+  border-bottom: 1px solid #000000;
+  margin-bottom: 30px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #001001;
+}
